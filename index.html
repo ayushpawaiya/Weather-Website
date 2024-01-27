@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav>
+            <div class="left">
+                <h1>Weather Website</h1>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="uppercenter">
+            <div>
+                <input type="text" placeholder="Search Location..." id="city">
+            </div>
+            <div>
+                <button type="submit" id="submit">Search</button>
+            </div>
+
+        </section>
+
+        <section class="lowercenter">
+            <div class="card">
+                <div>
+                    <h1>Weather of <span id="cityName"></span></h1>
+                </div>
+                <div>
+                    <table>
+                        <tr>
+                            <td>Temperature</td>
+                            <td><span id="temp"></span>&deg;c</td>
+                        </tr>
+                        <tr>
+                            <td>Humidity</td>
+                            <td><span id="humidity"></span>%</td>
+                        </tr>
+                        <tr>
+                            <td>Maximum Temperature</td>
+                            <td><span id="max_temp"></span>&deg;c</td>
+                        </tr>
+                        <tr>
+                            <td>Minimum Temperature</td>
+                            <td><span id="min_temp"></span>&deg;c</td>
+                        </tr>
+                        <tr>
+                            <td>Wind Speed</td>
+                            <td><span id="wind_speed"></span> km/h</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

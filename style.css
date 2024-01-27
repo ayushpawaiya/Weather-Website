@@ -1,0 +1,117 @@
+body {
+    background-color: #DCF2F1;
+}
+
+nav {
+    background-color: #7FC7D9;
+    display: flex;
+    border-radius: 4px;
+    height: 50px;
+    align-items: center;
+}
+
+.left h1 {
+    padding-left: 20px;
+    color: white;
+}
+
+.uppercenter div {
+    height: 50%;
+    align-items: center;
+    align-content: center;
+}
+
+.uppercenter {
+    display: flex;
+    justify-content: center;
+    height: 30%;
+    align-content: center;
+    align-items: center;
+    margin: 10% 10% 5% 10%;
+
+}
+
+.uppercenter div {
+    margin: 1%;
+    display: flex;
+    align-items: center;
+
+}
+
+.uppercenter input {
+    height: 40px;
+    width: 300px;
+    padding: 5px;
+    border: 1px solid #7FC7D9;
+}
+
+.uppercenter button {
+    width: 100px;
+    height: 40px;
+    padding: 5px;
+    background-color: #7FC7D9;
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+}
+
+.uppercenter button:hover {
+    font-size: 1rem;
+    color: white;
+    cursor: pointer;
+}
+
+.lowercenter {
+    justify-content: center;
+    display: flex;
+}
+
+.lowercenter div {
+    justify-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.lowercenter h1 {
+    font-size: 1.8rem;
+    margin: 5px;
+    color: white;
+}
+
+.lowercenter h2 {
+    font-size: 3rem;
+    margin: 5px;
+    color: black;
+}
+
+.lowercenter .card {
+    justify-items: center;
+    padding: 1%;
+    width: auto;
+    height: auto;
+}
+
+.card {
+    justify-content: center;
+    display: flex;
+    background-color: #7FC7D9;
+    /* color: white; */
+    width: 45%;
+    height: 250px;
+    border-radius: 10px;
+    border: 1px solid white;
+}
+
+.lowercenter table,
+td {
+    border: 1px solid white;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 25px;
+
+}
+
+table td:nth-child(2) {
+    text-align: center;
+}
